@@ -12,4 +12,4 @@ if(hora < 12){
 }
 console.log(saudacao);
 const titulo = document.querySelector("h1")
-titulo.textContent = saudacao + "eu sou a " + nome;
+titulo.textContent = saudacao  + "eu sou a  "  + nome;
