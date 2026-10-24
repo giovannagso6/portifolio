@@ -50,7 +50,7 @@ body{
             align-items: center;
             background-color: #a2e63563;
             color: #18181B;
-            padding:0;
+            padding:6px;
             box-shadow: rgba(0, 0, 0, 0.15);
         }
         a{
@@ -78,6 +78,9 @@ body{
             background-color: #A3E635;
             padding: 8px 16px;
             border-radius: 20px;
+        } 
+        h1{
+            color:#A3E635
         }
 
         .projetos{
@@ -90,7 +93,26 @@ body{
             border-radius: 30px;
             box-shadow: 0 12px 8px rgba(0, 0, 0, 0.30);
         }
-        
+         .escuro{
+            color: white;
+            background-color: #18181B;
+         } 
+         .escuro .card{
+            background-color: #18181B;
+            color: white;
+         }
+         .escuro h2,h1{
+            color:white;
+            
+         }.escuro{
+            background-color: #18181B;
+            color: white;
+            section, h1,  .certificado{
+            background-color: #18181B;
+            color: white;}
+            
+         
+         }
         @media
         (max-width: 600px){
             header{
