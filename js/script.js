@@ -12,7 +12,7 @@ if(hora < 12){
 }
 console.log(saudacao);
 const titulo = document.querySelector("h1")
-titulo.textContent =  saudacao    + "eu sou a  "   + nome;
+titulo.textContent =  saudacao     + " eu sou a " + nome;
 const botao = document.querySelector("#tema");
 botao.addEventListener("click",function() {
     document.body.classList.toggle("escuro");
@@ -24,3 +24,14 @@ else{
     botao.textContent="Modo escuro";
     }
 });
+const gostos=["tranças","maquiagem","Cílios","LipCombo","Sobrancelhas"];
+console.log(gostos.length);
+console.log(gostos[0]);
+const lista = document.querySelector("#gostos")
+
+for(const gosto of gostos){
+    const item = document.createElement("li");
+    item.textContent=gosto;
+    lista.appendChild(item);
+
+}

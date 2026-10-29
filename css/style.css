@@ -80,9 +80,8 @@ body{
             border-radius: 20px;
         } 
         h1{
-            color:#A3E635
+            color:#A3E635;
         }
-
         .projetos{
             display: grid;
             grid-template-columns: repeat(2,1fr);
@@ -141,11 +140,18 @@ body{
 
         a i:hover {
           color: #A3E635;
-            transform: scale(1.2);
-            }  
+            transform: scale(1.2);}  
 
-footer{
-    color:#F4F5F2;
+            
+        footer{
+        color:#F4F5F2;}
+        
+        .erro {
+            color:purple
+        }
+      
+        
     
-}
+
+
         
