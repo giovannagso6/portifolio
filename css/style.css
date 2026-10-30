@@ -8,9 +8,10 @@ body{
    text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
  }
- h1{
-    color:#18181B;
-    font-size: 40px;}
+     h1{
+        font-size: 40px;
+        color: #18181B;
+     }
 
     h2{
         color: #A3E635;
@@ -79,9 +80,7 @@ body{
             padding: 8px 16px;
             border-radius: 20px;
         } 
-        h1{
-            color:#A3E635;
-        }
+        
         .projetos{
             display: grid;
             grid-template-columns: repeat(2,1fr);
@@ -97,7 +96,7 @@ body{
             background-color: #18181B;
          } 
          .escuro .card{
-            background-color: #18181B;
+            background-color: #A3E635;
             color: white;
          }
          .escuro h2,h1{
@@ -147,7 +146,7 @@ body{
         color:#F4F5F2;}
         
         .erro {
-            color:purple
+            color:#A3E635;
         }
       
         
